@@ -539,6 +539,10 @@ mark,
   height: auto;
 }
 
+.img-fluid.rounded.w-100{
+  height: 400px !important;
+}
+
 .figure {
   display: inline-block;
 }
@@ -4284,6 +4288,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    margin-left: 27%;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -4359,9 +4364,15 @@ input[type="button"].btn-block {
   display: flex !important;
   flex-basis: auto;
 }
-
+.container-fluid.bg-primary.text-white.mt-5.py-5.px-sm-3.px-md-5{
+  height: 250px;
+}
 .navbar-expand .navbar-toggler {
   display: none;
+}
+.container-fluid.py5 div{
+  margin-top: -200px;
+  
 }
 
 .navbar-light .navbar-brand {
